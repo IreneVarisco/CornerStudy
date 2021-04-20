@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <form method="post" action="/php/login.php">
+            <h1>Login</h1>
+            <input type="text" id="username" placeholder="Username" name="username">
+            <input type="password" id="password" placeholder="Password" name="password">
+            <button type="submit" name="login" class="right button">Accedi
+                <style>
+                    .left {
+                        float: left;
+                    }
+            
+                    .button {
+                        color: #000;
+                        background-color: rgb(255, 255, 255);
+                        border: none;
+                    }
+            
+                    .button:hover {
+                        color: rgb(255, 255, 255);
+                        background-color: orange;
+                        border: none;
+                    }
+                </style>
+            </button>
+        </form>
+
+        
+        <script>
+            var psw = document.getElementById('password').
+            window.open("login.php?password=" + psw + "&username=" + username);
+        </script>
+        <script src="login.php"></script>
+    </body>
+</html>

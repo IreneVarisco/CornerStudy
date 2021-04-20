@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Registrazione</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body style=" background-color: black;">
+        <form method="post" action="/php/register.php">
+            <h1>Registrazione</h1>
+            <input type="text" id="username" placeholder="Username" name="username" maxlength="50" required>
+            <input type="password" id="password" placeholder="Password" name="password" required>
+            <button type="submit" name="register" class="right button">Registrati
+                <style>
+                    .left {
+                        float: left;
+                    }
+        
+                    .button {
+                        color: #000;
+                        background-color: rgb(255, 255, 255);
+                        border: none;
+                    }
+        
+                    .button:hover {
+                        color: rgb(255, 255, 255);
+                        background-color: orange;
+                        border: none;
+                    }
+                </style>
+            </button>
+        </form>
+    </body>
+</html>
+
+
