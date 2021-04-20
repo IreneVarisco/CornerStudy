@@ -1,60 +1,64 @@
 <html>
 
-<head>
-    <title>bellaFra</title>
-</head>
+    <head>
+        <title>CornerStudy</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    </head>
 
-<body style=" background-color: black;">
-    <center>
-        <img src="logo.jpg" height="100" width="200" />
-    </center>
+    <body style=" background-color: rgb(31, 26, 26);">
+        <center>
+            <img src="logo.jpg" height="100" width="200" />
+        </center>
 
-    <button id="registro" class="right button">registrati
-        <style>
-            .right {
-                float: right;
-            }
+        <button id="reg" class="right button">registrati
+            <style>
+                .right {
+                    float: right;
+                }
 
-            .button {
-                color: #000;
-                background-color: rgb(255, 255, 255);
-                border: none;
-            }
+                .button {
+                    color: #000;
+                    background-color: rgb(255, 255, 255);
+                    border: none;
+                }
 
-            .button:hover {
-                color: rgb(255, 255, 255);
-                background-color: orange;
-                border: none;
-            }
-        </style>
-    </button>
-    <button id="login" class="right button">logga
-        <style>
-            .right {
-                float: right;
-            }
+                .button:hover {
+                    color: rgb(255, 255, 255);
+                    background-color: orange;
+                    border: none;
+                }
+            </style>
+        </button>
+        <button id="log" class="right button">logga
+            <style>
+                .right {
+                    float: right;
+                }
 
-            .button {
-                color: #000;
-                background-color: rgb(255, 255, 255);
-                border: none;
-            }
+                .button {
+                    color: #000;
+                    background-color: rgb(255, 255, 255);
+                    border: none;
+                }
 
-            .button:hover {
-                color: rgb(255, 255, 255);
-                background-color: orange;
-                border: none;
-            }
-        </style>
-    </button>
-    <br>
-    <div id="realbox-input-wrapper">
-        <div id="realbox-icon" data-default-icon="logo.jpg" data-icon="logo.jpg">
+                .button:hover {
+                    color: rgb(255, 255, 255);
+                    background-color: orange;
+                    border: none;
+                }
+            </style>
+        </button>
+        <br>
+        <div id="realbox-input-wrapper">
+            <div id="realbox-icon" data-default-icon="logo.jpg" data-icon="logo.jpg">
+            </div>
+            <input id="realbox" type="search" autocomplete="off" spellcheck="false" aria-live="polite" autofocus=""
+                placeholder="cerca" style="border-radius: 20px; width: 300; margin-left: 42%; height: 30;">
+            <div id="realbox-matches"></div>
         </div>
-        <input id="realbox" type="search" autocomplete="off" spellcheck="false" aria-live="polite" autofocus=""
-            placeholder="cerca" style="border-radius: 20px; width: 300; margin-left: 42%; height: 30;">
-        <div id="realbox-matches"></div>
-    </div>
-</body>
+
+
+        <script src="bottoni.js"></script>
+    </body>
 
 </html>
