@@ -1,54 +1,73 @@
 <html>
 
-    <head>
-        <title>CornerStudy - Registrazione</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
-        <link rel="stylesheet" href="/css/style.css">
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    </head>
+<head>
+    <title>CornerStudy - Registrazione</title>
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Open+Sans&display=swap" />
+    <!-- <link rel = "stylesheet" href = "/css/style.css" /> -->
+    <script src = "https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
 
-    <body style=" background-color: rgb(31, 26, 26); text-align:center;">
-        <form method="post" action="/php/register.php">
-            <br><br>
-            <br><br>
-            <br><br>
-            <br><br>
+<body style = "background-color: rgb(31, 26, 26); text-align: center">
+    <form method = "post" action = "/php/register.php" style = "margin-top: 100px">
+        <h1 style = "
+          color: chocolate;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        ">
+            Registrazione
+        </h1>
 
-            <h1
-                style="color:chocolate; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
-                Registrazione</h1>
+        <br /><br />
+        <br /><br />
 
-            <br><br>
-            <br><br>
+        <input type = "text" id = "username" placeholder = " Username" name = "username" maxlength = "50" required size = "35px"
+            style = "height: 30px; font-size: 16px; border-radius: 7px" /><br /><br />
+        <input type = "text" id = "cognome" placeholder = " Cognome" name = "cognome" required size = "35px"
+            style = "height: 30px; font-size: 16px; border-radius: 7px" /><br /><br />
+        <input type = "text" id = "nome" placeholder = " Nome" name = "nome" required size = "35px"
+            style = "height: 30px; font-size: 16px; border-radius: 7px" /><br /><br />
+        <input type = "text" id = "mail" placeholder = " Mail" name = "mail" maxlength = "50" required size = "35px"
+            style = "height: 30px; font-size: 16px; border-radius: 7px" /><br /><br />
 
-            <input type="text" id="username" placeholder="Username" name="username" maxlength="50" required><br><br>          <!--   sono richiesti più paramentri per la registrazione -->
-            <input type="password" id="password" placeholder="Password" name="password" required><br><br>
-            <button type="submit" name="register" id="reg" class="right button">Registrati
-                <style>
-                    .center {
-                        float: center;
-                    }
+        <input type = "text" id = "data" placeholder = " Data di Nascita" name = "data" maxlength = "50" required size = "35px"
+            style = "height: 30px; font-size: 16px; border-radius: 7px" /><br /><br />
+        <input type = "text" id = "citta" placeholder = " Città" name = "citta" required size = "35px"
+            style = "height: 30px; font-size: 16px; border-radius: 7px" /><br /><br />
 
-                    .button {
-                        color: #000;
-                        background-color: rgb(255, 255, 255);
-                        border: none;
-                    }
+        <input type = "password" id = "password" placeholder = " Password" name = "password" required size = "35px"
+            style = "height: 30px; font-size: 16px; border-radius: 7px" /><br /><br /><br /><br />
 
-                    .button:hover {
-                        color: rgb(255, 255, 255);
-                        background-color: orange;                           /* cambio colore */
-                        border: none;
-                    }
-                </style>
-            </button>
-        </form>
+        <button type = "submit" name = "register" id = "reg" class = "right button" size = "20px" style = "
+          height: 20px;
+          font-size: 15px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        ">
+            Registrati
+            <style>
+                .center {
+                    float: center;
+                }
 
-        <script src="bottoni.js"></script>
-    </body>
+                .button {
+                    color: #000;
+                    background-color: rgb(255, 255, 255);
+                    border: none;
+                }
+
+                .button:hover {
+                    color: rgb(255, 255, 255);
+                    background-color: orange;
+                    /* cambio colore */
+                    border: none;
+                }
+            </style>
+        </button>
+    </form>
+
+    <script src = "bottoni.js"></script>
+</body>
 
 </html>
-
 
 <!-- 
 aggiungiamo una navigation bar? -->
