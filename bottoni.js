@@ -9,3 +9,5 @@ $("#log").click(function () {
   var username = document.getElementById("username").value;
   window.open("login.php?password=" + psw + "&username=" + username);
 });
+
+

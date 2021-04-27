@@ -8,6 +8,29 @@
 </head>
 
 <body>
+    <div class="nav-bar" style="position: relative;z-index: 4;font-size: 18px;background-color: rgb(59, 57, 57);color: whitesmoke;padding-left:12px;padding-right:16px;font-family: 'Source Sans Pro', sans-serif;">
+        <a href="http://127.0.0.1:5500/prog-1.html" class="nav-bar1" title="Home" style="width:77px">
+          <i class="logo" style="position:relative;font-size:42px!important;"></i> <!-- qua ci va il logo -->
+        </a>
+      
+        <a class="nav-bar2" href="javascript:void(0)" onclick = "materia('materia')" id="navbtn_materia" title="Materia" style="width:116px">Materia <i class="a" style="font-size:20px;"></i><i class="b" style="display:none"></i></a>
+        <a class="nav-bar3" href="javascript:void(0)" onclick="aaaaa('anno')" id="navbtn_anno" title="Anno" style="width:132px">Anno <i class="a" style="font-size:20px;"></i><i class="b" style="display:none"></i></a>
+        <!-- <a class="nav-bar4" href="javascript:void(0)" onclick="w3_open_nav('argomento')" id="navbtn_exercises" title="Exercises" style="width:118px">Exercises <i class="fa fa-caret-down" style="font-size:20px;"></i><i class="fa fa-caret-up" style="display:none"></i></a> -->
+      
+        <a class="w3-bar-item w3-button bar-item-hover w3-padding-24" href="javascript:void(0)" onclick="w3_open()" id="navbtn_menu" title="Menu" style="width:93px">Menu <i class="fa fa-caret-down"></i><i class="fa fa-caret-up" style="display:none"></i></a>
+      
+        <div id="loginactioncontainer" class="w3-right w3-padding-16" style="margin-left:50px">
+          <div id="mypagediv" style="display: none;"></div>
+            <!-- <button id="w3loginbtn" style="border:none;display:none;cursor:pointer" class="login w3-right w3-hover-greener" onclick='w3_open_nav("login")'>LOG IN</button>-->
+            <a id="w3loginbtn" class="w3-bar-item w3-btn bar-item-hover w3-right" style="display: inline; width: 130px; background-color: rgb(4, 170, 109); color: white; border-radius: 25px;" href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com" target="_self">Log in</a>
+        </div>
+      
+        <div class="w3-right w3-padding-16">
+          <!--<a class="w3-bar-item w3-button bar-icon-hover w3-right w3-hover-white w3-hide-large w3-hide-medium" href="javascript:void(0)" onclick="w3_open()" title="Menu"><i class='fa'>&#xf0c9;</i></a>
+          -->
+        </div>
+        
+       </div>                                            <!-- aaaaaaaaaaaaaaaaaaaaaaacasino mettere a posto -->
 
     <body style="background-color: rgb(31, 26, 26); text-align:center; ">
          <form method = "post" style = "margin-top: 100px"> <!--action = "/php/login.php"-->
@@ -36,7 +59,7 @@
 
                     .button:hover {
                         color: rgb(255, 255, 255);
-                        background-color: orange;
+                        background-color: chocolate;
                         border: none;
                     }
                 </style>
