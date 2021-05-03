@@ -5,7 +5,7 @@
 	if(empty($_POST)) {
 		die();
 	}else{
-		$conn = new mysqli('varisco.irene.tave.osdb.it', 'c145_varisco', $psw, 'c145_login');		//cambiare i dati :)
+		$conn = new mysqli('colombo2.tommaso.tave.osdb.it', 'c121_CornerStudy', 'cornerstudy', 'c121_CornerStudy');		//cambiare i dati :)
 				
 		if ($conn ->connect_error) {
 			die('Connect Error: '.$conn ->connect_error);
