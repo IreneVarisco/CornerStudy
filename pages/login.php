@@ -1,8 +1,8 @@
 <?php
 	require '../assets/config.php';
 
-	$username = $_POST['username'];
-	$password = $_POST['password'];
+	$username = $_POST['usernamel'];
+	$password = $_POST['passwordl'];
 
 	if(isset($username) && isset($password)){
 		$sqlForUsrname = "SELECT COUNT(Username) as total FROM User WHERE Username = '$username'"; //Counting Rows with Username
